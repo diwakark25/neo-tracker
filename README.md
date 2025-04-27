@@ -20,4 +20,4 @@ NEO Tracker is a Python application that fetches data from NASA's Near-Earth Obj
 Install dependencies with:
 
 ```bash
-pip install requests pandas matplotlib
+pip install requests pandas matplotlib pandas requests
