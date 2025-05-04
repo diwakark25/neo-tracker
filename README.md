@@ -1,23 +1,34 @@
-# 🚀 NEO Tracker
+# 🚀 NASA Near-Earth Object (NEO) Tracker
 
-NEO Tracker is a Python application that fetches data from NASA's Near-Earth Object (NEO) API, stores it in a local SQLite database, and provides insights through console output and visualizations.
+This is a Streamlit-based web application that tracks Near-Earth Objects using NASA's public API. It collects and stores asteroid data, analyzes potential hazards, and visualizes key metrics such as asteroid size, approach speed, and distance.
 
-![NEO Chart](https://upload.wikimedia.org/wikipedia/commons/7/71/NEO_orbit.gif)
+## 🌐 Live Demo
+You can run this app locally using Streamlit. See below for instructions.
 
----
+## 📦 Features
 
-## 📌 Features
+- Pulls NEO data from NASA's API for a customizable date range
+- Stores data in a local SQLite database
+- Displays statistics about:
+  - Potentially hazardous asteroids
+  - Relative velocity and distance
+  - Estimated asteroid size
+- Visualization using Seaborn and Matplotlib
+- Progress indicators for data fetching
 
-- Pulls real-time NEO data from NASA's public API
-- Saves asteroid data including name, size, speed, miss distance, and hazard status to SQLite
-- Displays the top 5 most hazardous near-Earth objects
-- Plots a daily count of NEOs for the past 5 days
+## 🛠 Technologies Used
 
----
+- Python
+- Streamlit
+- SQLite
+- Requests
+- Matplotlib
+- Seaborn
+- Pandas
 
-## 🛠️ Requirements
+## 🚀 Getting Started
 
-Install dependencies with:
-
+### 1. Clone the repository
 ```bash
-pip install requests pandas matplotlib pandas requests
+git clone https://github.com/diwakar25/NASA-Near-Earth-Object-NEO-Tracker.git
+cd nasa-neo-tracker
